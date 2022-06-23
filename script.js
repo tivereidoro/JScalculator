@@ -1,5 +1,4 @@
-
-const operator= prompt("\n Enter operator \n     +        \n       -      \n        /                  \n      * \n      %");
+const operator= prompt("\n Enter operator \n +        \n -       \n /        \n *       \n %");
 const num1= parseFloat(prompt("\n Enter first number"));
 const num2= parseFloat(prompt("\n Enter second number"));
 
@@ -7,17 +6,20 @@ const num2= parseFloat(prompt("\n Enter second number"));
  
  if(operator == "+") {
    result= num1 + num2;
-   
- }else if (operator == "-") {
+}
+ else if (operator == "-") {
    result=  num1 - num2;
    
- }else if (operator == "/") {
+ }
+ else if (operator == "/") {
    result= num1 / num2;
    
- }else if (operator == "*") {
+ }
+ else if (operator == "*") {
    result= num1 * num2;
    
- }else{
+ }
+ else{
    result= num1 % num2;
  }
  
